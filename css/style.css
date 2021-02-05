@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding-top: 50px;
+}
+
+#my_blue_text {
+  color: #2881ff;
+}
+#my_white_text {
+  color: white;
+}
+#my_grey_text {
+  color: lightgrey;
+  line-height: 1.6;
+}
+
+.navbar {
+  background-color: white;
+}
+.navbar-header span {
+ background-color: #3a8aff;
+}
+.my_navbar {
+  font-size: 10px;
+}
+.my_navbar a {
+  color: black;
+}
+#my_logo {
+  height: 100%;
+}
+
+#my_jumbo {
+  padding: 30px 20px;
+  background-image: url(https://www.digitalocean.com/static/bg-home-hero-3-bb4b33b77274db09b969f629ad81c4d5.svg);
+  background-size: cover;
+  width: 100%;
+  background-repeat: no-repeat;
+}
+
+.my_form {
+  padding: 20px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+#my_sign {
+  background-color: #579aff;
+  border-color: #579aff;
+}
+#my_g_sign {
+  background-image: url("../img/google-icon.png");
+  background-position: left;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+form p {
+  padding-top: 10px;
+}
+.example {
+  height: 600px;
+  background-color: yellow;
+}
+.example2 {
+  height: 600px;
+  background-color: green;
+}
