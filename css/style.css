@@ -8,6 +8,7 @@ body {
   padding-top: 50px;
 }
 
+/* utilities */
 #my_blue_text {
   color: #2881ff;
 }
@@ -18,7 +19,11 @@ body {
   color: lightgrey;
   line-height: 1.6;
 }
-
+#my_box_logo {
+  height: 200px;
+  width: 100%;
+}
+/* header navbar */
 .navbar {
   background-color: white;
 }
@@ -35,6 +40,8 @@ body {
   height: 100%;
 }
 
+
+/* jumbotron & form */
 #my_jumbo {
   padding: 30px 20px;
   background-image: url(https://www.digitalocean.com/static/bg-home-hero-3-bb4b33b77274db09b969f629ad81c4d5.svg);
@@ -42,7 +49,6 @@ body {
   width: 100%;
   background-repeat: no-repeat;
 }
-
 .my_form {
   padding: 20px;
   background-color: white;
@@ -61,6 +67,28 @@ body {
 }
 form p {
   padding-top: 10px;
+}
+
+/* claim & sponsor section */
+.claim_sponsor {
+  background-color: #f3f5f9;
+}
+.claim_sponsor h5 {
+  text-transform: uppercase;
+}
+.claim_sponsor h5,
+.claim_sponsor p {
+  padding-top: 20px;
+}
+
+/* deploy section */
+#my_list {
+  color: grey;
+  border-left: 2px solid #ddd;
+  border-right: 0;
+  border-bottom: 0;
+  border-top: 0;
+  border-radius: 0;
 }
 .example {
   height: 600px;
