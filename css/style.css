@@ -46,6 +46,38 @@ body {
 }
 
 
+
+/* help bot section */
+.my_help {
+  left: 0;
+  right: 100px;
+}
+.two_container {
+  height: 70px;
+  width: 70px;
+  padding: 20px;
+}
+.img_container {
+  height: 50px;
+  width: 50px;
+  background-color: #006aff;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  margin-right: 50px;
+  margin-left: 70px;
+}
+
+#my_help_text {
+  max-width: 300px;
+  background-color: white;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 50px;
+  margin-right: 50px;
+  margin-left: 70px;
+}
+
+
 /* jumbotron & form */
 #my_jumbo {
   padding: 30px 20px;
