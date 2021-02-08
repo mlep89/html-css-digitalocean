@@ -23,6 +23,11 @@ body {
   height: 200px;
   width: 100%;
 }
+#my_second_p {
+  line-height: 0.5;
+}
+
+
 /* header navbar */
 .navbar {
   background-color: white;
@@ -90,13 +95,8 @@ form p {
   border-top: 0;
   border-radius: 0;
 }
-.example {
-  height: 600px;
-  background-color: yellow;
-}
-.example2 {
-  height: 600px;
-  background-color: green;
+#my_droplets {
+  padding-top: 20px;
 }
 
 /* designed section */
@@ -109,5 +109,72 @@ form p {
 }
 #my_circles {
   padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+
+/* features section */
+#features_section {
+  padding: 30px 0;
+}
+
+
+
+/* customer section */
+.customer_section {
+  background-color: #00219c;
+  color: white;
+  padding: 30px 0;
+}
+.customer_section a {
+  color: #00d5d1;
+}
+.customer_section p {
+  color: lightgrey;
+}
+
+
+/* development section */
+.development_section {
+  background-color: #f3f5f9;
+}
+#bold_paragraph {
+  font-weight: bold;
+}
+#my_white_box {
+  padding: 30px 0;
+  margin: 30px 30px;
+  background-color: white;
+}
+
+
+/* get started section */
+.get_started_sec {
+  background-color: #0039b3;
+  padding: 30px 0;
+  color: white;
+}
+.my_btn {
+  color: #1276ff;
+
+}
+/* footer section */
+.my_footer {
+  background-color: #031c4e;
+  padding-top: 30px;
+}
+.my_footer ul {
+  list-style: none;
+}
+.my_footer li:first-child {
+  font-weight: bold;
+  color: white;
+}
+.my_footer li,
+.my_footer p,
+.my_footer i {
+  color: grey;
+}
+#my_social_group {
   padding-bottom: 20px;
 }
