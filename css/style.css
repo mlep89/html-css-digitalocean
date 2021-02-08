@@ -98,3 +98,16 @@ form p {
   height: 600px;
   background-color: green;
 }
+
+/* designed section */
+.designed {
+    background-color: #f3f5f9;
+}
+.designed img{
+    width: 80%;
+    padding: 30px;
+}
+#my_circles {
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
