@@ -26,6 +26,26 @@ body {
 #my_second_p {
   line-height: 0.5;
 }
+.slidebox {
+  position: relative;
+}
+.slider_right,
+.slider_left {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 3em;
+}
+.slider_right {
+  right: 0;
+}
+.slider_left {
+  left: 0;
+}
+.slider_img img {
+    width: 80%;
+    margin: 0 auto;
+}
 
 
 /* header navbar */
@@ -49,32 +69,44 @@ body {
 
 /* help bot section */
 .my_help {
-  left: 0;
-  right: 100px;
+  bottom: 100px;
 }
-.two_container {
-  height: 70px;
-  width: 70px;
+.help_container {
+  position: relative;
+  left: 50px;
+  height: 170px;
+  width: 170px;
   padding: 20px;
 }
-.img_container {
-  height: 50px;
-  width: 50px;
+.two_container {
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: white;
+  font-size: 1em;
+  background-color: red;
+  border-radius: 60%;
+  border: 10px solid white;
+  padding: 10px 15px;
+  z-index: 99;
+}
+.shark_container {
+  position: absolute;
+  left: 0;
+  height: 150px;
+  width: 150px;
   background-color: #006aff;
   border-radius: 5px;
-  margin-bottom: 10px;
-  margin-right: 50px;
-  margin-left: 70px;
 }
 
 #my_help_text {
+  position: relative;
+  left: 50px;
   max-width: 300px;
   background-color: white;
   padding: 10px;
   border-radius: 5px;
-  margin-bottom: 50px;
-  margin-right: 50px;
-  margin-left: 70px;
+  margin-top: 20px;
 }
 
 
@@ -137,26 +169,6 @@ form p {
 }
 .designed p {
   padding-top: 20px;
-}
-.slidebox {
-  position: relative;
-}
-.slider_right,
-.slider_left {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  font-size: 3em;
-}
-.slider_right {
-  right: 0;
-}
-.slider_left {
-  left: 0;
-}
-.slider_img img {
-    width: 80%;
-    margin: 0 auto;
 }
 #my_circles {
   padding-top: 30px;
